@@ -88,11 +88,43 @@
 
 
 
+.minewrapheaderline{
+    float: left;
+
+    width: 80px;
+    height: auto;
+
+    margin-right: 20px;
+
+    border: 10px solid #3c3c3c;
+
+    border-radius: 7px;
+
+    background-color: #4d4d4d;
+
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    writing-mode: vertical-rl;  
+    text-orientation: upright;
+}
+
+
+
 .minewrapsection1{
+    display: flex;
+
     width: auto;
-    height: 310px;
+    height: 310px;    
 
     margin: 20px;
+}
+
+.minewrapsection1content{
+    float: left;
+
+    width: auto;
+    height: 310px;
 
     border-radius: 6px;
 
@@ -101,30 +133,30 @@
     overflow-x: scroll;
 }
 
-.minewrapsection1::-webkit-scrollbar{
+.minewrapsection1content::-webkit-scrollbar{
     height: 10px;
 }
 
-.minewrapsection1::-webkit-scrollbar-track{
+.minewrapcontent::-webkit-scrollbar-track{
     border-radius: 0px 0px 6px 6px;
 }
 
-.minewrapsection1::-webkit-scrollbar-thumb{
+.minewrapsection1content::-webkit-scrollbar-thumb{
     border-radius: 6px;
 }
 
-.minewrapsection1 > ul{
+.minewrapsection1content > ul{
     width: 1340px;
     /* display: flex; */
 
     overflow-x: auto;
 }
 
-.minewrapsection1 > ul > li:first-child{
+.minewrapsection1content > ul > li:first-child{
     margin-left: 10px;
 }
 
-.minewrapsection1 > ul > li{
+.minewrapsection1content > ul > li{
     float: left;
 
     width: 180px;
@@ -143,55 +175,58 @@
     line-height: 280px;
 }
 
-.minewrapsection1 > ul > li:hover{
+.minewrapsection1content > ul > li:hover{
     transform: scale(1.02);
     transition: transform 0.3s ease-in-out;
 }
 
-.minewrapsection1 > ul > li:nth-child(1){
+.minewrapsection1content > ul > li:nth-child(1){
     background-image: url(../img/mygame\ \(1\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.minewrapsection1 > ul > li:nth-child(2){
+.minewrapsection1content > ul > li:nth-child(2){
     background-image: url(../img/mygame\ \(2\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.minewrapsection1 > ul > li:nth-child(3){
+.minewrapsection1content > ul > li:nth-child(3){
     background-image: url(../img/mygame\ \(3\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
-.minewrapsection1 > ul > li:nth-child(4){
+.minewrapsection1content > ul > li:nth-child(4){
     background-image: url(../img/mygame\ \(4\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
-.minewrapsection1 > ul > li:nth-child(5){
+.minewrapsection1content > ul > li:nth-child(5){
     background-image: url(../img/mygame\ \(5\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
-.minewrapsection1 > ul > li:nth-child(6){
+.minewrapsection1content > ul > li:nth-child(6){
     background-image: url(../img/mygame\ \(6\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
-.minewrapsection1 > ul > li:nth-child(7){
+.minewrapsection1content > ul > li:nth-child(7){
     background-image: url(../img/mygame\ \(7\).png);
 
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
+
 .minewrapsection2{
     width: auto;
     height: 450px;
