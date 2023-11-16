@@ -1,0 +1,43 @@
+.minewrapheader{
+    width: auto;
+    height: 200px;
+
+    border-radius: 6px;
+
+    margin: 20px;
+
+    background-color: #4d4d4d;
+
+}
+
+.minewrapheader .minewrapheader_headimg{
+    width: 180px;
+    height: 180px;
+
+    margin: 10px;
+
+    border-radius: 3px;
+
+    float: left;
+}
+
+.minewrapheader .minewrapheader_text{
+    width: auto;
+    height: 180px;
+
+    margin: 10px;
+
+    padding-left: 18px;
+
+    float: left;
+
+    border-left: 2px solid #eeeeee;
+
+    line-height: 35px;
+
+    /* background-color: #fff; */
+}
+
+.minewrapheader .minewrapheader_text > span strong:first-child{
+    color: firebrick;
+}

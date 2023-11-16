@@ -1,0 +1,147 @@
+.useraccount{
+    width: 300px;    
+    height: 100px;
+
+    position: fixed;
+    top: -100px;
+    right: 0px;
+    z-index: 1;
+
+    background-color: #1a1a1a;
+
+    border-radius: 0px 0px 0px 15px;
+
+    color: #d0d0d0;
+    font-size: 20px;
+    font-weight: 600;
+
+    transition: 0.5s ease-in-out;
+}
+
+.useraccount:hover{
+    transform: translateY(100px);
+}
+
+.useraccount:hover .drawer{
+    opacity: 0;
+}
+
+.useraccount .username{
+    display: block;
+
+    width: 100px;
+    height: 100px;
+
+    line-height: 100px;
+    text-align: center;
+}
+
+.useraccount .userhead{
+    width: 60px;
+    height: 60px;
+
+    position: absolute;
+    top: 20px;
+    right: 120px;
+
+    background-color: #2b2b2b;
+
+    border-radius: 30px;
+}
+
+.useraccount .account{
+    width: 80px;
+    height: 60px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+
+    margin: 0;
+    padding: 0;
+
+    border-radius: 11px;
+
+    background-color: #2f2f2f;
+
+    transition: height 0.3s ease-in-out;
+
+    list-style: none;
+
+    overflow: hidden;
+}
+
+.useraccount .account:hover{
+    height: 170px;
+}
+
+.useraccount .account li{
+    
+}
+
+.useraccount .account li a{
+    display: block;
+
+    width: 70px;
+    height: 50px;
+
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+    margin-bottom: 5px;
+
+    border-radius: 7px;
+
+    background: #3c3c3c;
+
+    line-height: 50px;
+    text-align: center;    
+
+    color: #d0d0d0;
+    text-decoration: none;
+}
+
+
+
+.useraccount .drawer{
+    width: 60px;
+    height: 20px;
+
+    position: fixed;
+    right: 0px;
+    z-index: 1;
+
+    border-radius: 0px 0px 0px 5px;
+
+    background-color: #1a1a1a;
+
+    text-align: center;
+
+    transition: opacity 0.3s ease-in;
+}
+
+.useraccount .drawer p{
+    width: 30px;
+
+    position: relative;
+    left: 10px;
+
+    font-size: 14px;
+}
+
+.useraccount .drawer .drawerhandle{
+    width: 10px;
+    height: 10px;
+
+    position: absolute;
+    bottom: 7px;
+    right: 3px;
+
+    border-left: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+
+    transform: rotate(-45deg);
+}
+

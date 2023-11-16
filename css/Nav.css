@@ -1,0 +1,129 @@
+.nav{
+    width: 250px;
+    height: 100%;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+    background-color: #1a1a1a;
+
+    color: #d0d0d0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav .head{
+    width: 250px;
+    height: 250px;
+
+}
+
+.nav .head .headimg{
+    width: 160px;
+    height: 160px;
+
+    position: relative;
+    top: 45px;
+    left: 45px;
+
+    background-color: #2b2b2b;
+    transition: transform 0.3s ease-in-out;    
+}
+
+.nav .head .headimg img{
+    width: 140px;
+    height: 140px;
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+.nav .head .headimg,.nav .head .headimg img{
+    border-radius: 5px;
+}
+
+.nav .head .headimg:hover{
+    transform: scale(1.1);
+}
+
+
+
+.nav hr{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.nav .options{
+    list-style: none;
+
+    padding: 0;
+}
+
+.nav .options li{
+    display: block;
+
+    width: 265px;
+    height: 80px;
+
+    position: relative;
+    left: -15px;
+
+    background-color: #2b2b2b;
+
+    margin-bottom: 5px;
+
+    transition: transform 0.3s ease-in-out,border-radius 0.3s ease-in-out;
+}
+
+.nav .options li:hover{
+    transform: translateX(15px);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.nav .options li a{
+    display: block;
+
+    width: 250px;
+    height: 80px;
+
+    position: absolute;
+    right: 0px;
+
+    border-left: 5px solid #1a1a1a;
+
+    line-height: 80px;
+    text-align: center;
+    color: #d0d0d0;
+    text-decoration: none;    
+}
+
+.nav .options .now{
+    transform: translateX(10px); 
+    border-radius: 10px;
+}
+
+
+.nav .govlink{
+    width: 250px;
+    height: auto;
+
+    position: absolute;
+    bottom: 0px;
+
+    text-align: center;
+}
+
+.nav .govlink a{
+    color: #606060;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav .govlink a:hover{
+    color: #7e7e7e;
+}
+

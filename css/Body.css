@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #242424;
+
+    height: 100vh;
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+.bottonbox:hover{
+    cursor: pointer;
+}
+
+.normalbox:hover{
+    cursor: context-menu;
+}
