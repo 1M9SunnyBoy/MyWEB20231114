@@ -18,7 +18,7 @@
     animation: TEXTborderloadanimation 4s ease-in-out 0.5s 1 normal forwards;
 }
 
-#Index_TEXT .Index_word{
+#Index_TEXT > ul{
     width: 100%;
     height: 100px;
     display: flex;
@@ -28,11 +28,11 @@
     left: 5px;
 }
 
-#Index_TEXT .Index_word > *:first-child{
+#Index_TEXT ul > li:first-child{
     color: firebrick;
 }
 
-#Index_TEXT .Index_word > *{
+#Index_TEXT ul > li{
     text-align: center;
 
     transition: all 0.3s;
@@ -41,7 +41,7 @@
     animation: TEXTloadanimation 2s ease-in-out 0.5s 1 normal forwards;
 }
 
-#Index_TEXT .Index_word .Index_hiddenchar{
+#Index_TEXT ul li{
     max-width: 0;
     opacity: 0;
 }

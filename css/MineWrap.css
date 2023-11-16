@@ -25,19 +25,180 @@
     width: auto;
     height: 180px;
 
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-    padding-left: 18px;
+    padding-left: 10px;
 
     float: left;
 
     border-left: 2px solid #eeeeee;
 
-    line-height: 35px;
+    line-height: 36px;
 
     /* background-color: #fff; */
 }
 
-.minewrapheader .minewrapheader_text > span strong:first-child{
+.minewrapheader .minewrapheader_text > span{
+    display: block;
+
+    height: 36px;
+
+    padding-left: 45px;
+}
+
+.minewrapheader .minewrapheader_text strong:first-child{
     color: firebrick;
+}
+
+.minewrapheader .minewrapheader_text span:nth-child(1){
+    background-image: url(../img/head.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minewrapheader .minewrapheader_text span:nth-child(2){
+    background-image: url(../img/bilibili.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minewrapheader .minewrapheader_text span:nth-child(3){
+    background-image: url(../img/email.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;  
+}
+
+.minewrapheader .minewrapheader_text span:nth-child(4){
+    background-image: url(../img/Steam.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+.minewrapheader .minewrapheader_text span:nth-child(5){
+    background-image: url(../img/Github.png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.minewrapsection1{
+    width: auto;
+    height: 310px;
+
+    margin: 20px;
+
+    border-radius: 6px;
+
+    background-color: #4d4d4d;
+
+    overflow-x: scroll;
+}
+
+.minewrapsection1::-webkit-scrollbar{
+    height: 10px;
+}
+
+.minewrapsection1::-webkit-scrollbar-track{
+    border-radius: 0px 0px 6px 6px;
+}
+
+.minewrapsection1::-webkit-scrollbar-thumb{
+    border-radius: 6px;
+}
+
+.minewrapsection1 > ul{
+    width: 1340px;
+    /* display: flex; */
+
+    overflow-x: auto;
+}
+
+.minewrapsection1 > ul > li:first-child{
+    margin-left: 10px;
+}
+
+.minewrapsection1 > ul > li{
+    float: left;
+
+    width: 180px;
+    height: 280px;
+
+    margin: 10px 10px 10px 0px;
+
+    border-radius: 5px;
+
+    background: #5e5e5e;
+
+    color: #eeeeee;
+    font-size: 25px;
+    font-weight: 600;
+
+    line-height: 280px;
+}
+
+.minewrapsection1 > ul > li:hover{
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+.minewrapsection1 > ul > li:nth-child(1){
+    background-image: url(../img/mygame\ \(1\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minewrapsection1 > ul > li:nth-child(2){
+    background-image: url(../img/mygame\ \(2\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.minewrapsection1 > ul > li:nth-child(3){
+    background-image: url(../img/mygame\ \(3\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.minewrapsection1 > ul > li:nth-child(4){
+    background-image: url(../img/mygame\ \(4\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.minewrapsection1 > ul > li:nth-child(5){
+    background-image: url(../img/mygame\ \(5\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.minewrapsection1 > ul > li:nth-child(6){
+    background-image: url(../img/mygame\ \(6\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.minewrapsection1 > ul > li:nth-child(7){
+    background-image: url(../img/mygame\ \(7\).png);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.minewrapsection2{
+    width: auto;
+    height: 450px;
+
+    margin: 20px;
+
+    border-radius: 6px;
+
+    background-color: #3c3c3c;
 }

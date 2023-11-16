@@ -19,3 +19,7 @@ body *{
 .normalbox:hover{
     cursor: context-menu;
 }
+
+ul{
+    list-style: none;
+}
