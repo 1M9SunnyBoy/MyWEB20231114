@@ -96,11 +96,9 @@
 
     margin-right: 20px;
 
-    border: 10px solid #3c3c3c;
-
     border-radius: 7px;
 
-    background-color: #4d4d4d;
+    background-color: #3c3c3c;
 
     text-align: center;
     line-height: 80px;
@@ -137,7 +135,7 @@
     height: 10px;
 }
 
-.minewrapcontent::-webkit-scrollbar-track{
+.minewrapsection1content::-webkit-scrollbar-track{
     border-radius: 0px 0px 6px 6px;
 }
 
@@ -228,12 +226,37 @@
 
 
 .minewrapsection2{
+    display: flex;
+
     width: auto;
     height: 450px;
 
     margin: 20px;
+}
+
+.minewrapsection2content{
+    float: left;
+
+    width: 100%;
+    height: 450px;
 
     border-radius: 6px;
 
-    background-color: #3c3c3c;
+    background-color: #3c3c3c;  
+}
+
+.minewrapsection2content > ul{
+    width: 100%;
+    height: 450px;
+}
+
+.minewrapsection2content > ul > li{
+    position: absolute;
+
+    width: 200px;
+    height: 300px;
+
+    border-radius: 5px;
+
+    background-color: #4d4d4d;
 }
