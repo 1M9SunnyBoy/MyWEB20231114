@@ -1,7 +1,4 @@
 .wrap{
-    /* width: auto; */
-    /* height: 100%; */
-
     position: absolute;
     top: 20px;
     left: 270px;
@@ -23,8 +20,8 @@
 
 
 ::-webkit-scrollbar {  
-    width: 10px;  
-}  
+    width: 10px;
+}
     
 ::-webkit-scrollbar-thumb {
     background: #3c3c3c;   

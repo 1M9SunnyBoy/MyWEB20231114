@@ -1,31 +1,9 @@
-let draggablebox;
+window.addEventListener.onload('DOMContentLoaded', function(){
+    const draggableboxs = document.querySelectorAll('.draggablebox')
 
-window.addEventListener ('DOMContentLoaded', function () {
-    const dragElements = document.querySelectorAll('.draggablebox');
-    console.log(dragElements);
+    for(let i = 0; i < draggableboxs.length; i++){
 
-    for (let i = 0; i < dragElements.length; i++){
-        draggablebox = dragElements[i];
-        console.log(draggablebox);
-        draggablebox.addEventListener("mousedown", () => {
-            document.addEventListener("mousemove", onDrag);
-            document.addEventListener("mouseup", ()=>{
-                document.removeEventListener("mousemove", onDrag);               
-            })
-        })         
-    }
+        console.log(draggableboxs[i] + '  ' + draggableboxs[i].style.top)
+        draggableboxs[i].style.top = `${Math.random(-30, 30)}px`
+    }    
 })
-
-function onDrag(e){
-    // const draggableboxs = d;
-    console.log(draggablebox);
-
-    let oddStyle = window.getComputedStyle(draggablebox);
-
-    let left = parseFloat(oddStyle.left);
-    let top = parseFloat(oddStyle.top);
-    draggablebox.style.left = `${left+e.movementX}px`
-    draggablebox.style.top = `${top+e.movementY}px`
-
-    console.log(left ,'=', top);
-}
