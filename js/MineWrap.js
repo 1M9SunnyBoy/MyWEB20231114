@@ -6,7 +6,8 @@ const otherbox_content_text = new Array(
     '\"试试我的世界\"',
     '\"试试泰拉瑞亚\"',
     'Other\'s Other',
-    '本网站所有页面均由HTML，CSS，Js实现。'
+    '本网站所有页面均由HTML，CSS，Js实现。',
+    '科技，数码'
 )
 
 

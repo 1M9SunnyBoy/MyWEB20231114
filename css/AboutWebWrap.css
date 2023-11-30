@@ -2,7 +2,8 @@
     padding: 10px;
 }
 
-.box{
+.aboutwebwrap_box{
+    float: left;
 
     margin: 10px;
     padding: 10px;
@@ -10,4 +11,29 @@
     border-radius: 6px;
     
     background: #3c3c3c;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.aboutwebwrap_box:hover{
+    transform: scale(1.01);
+}
+
+.aboutwebwrap_text{
+    background: #4c4c4c;
+    padding: 8px;
+
+    border-radius: 5px;
+}
+
+.aboutwebwrap_a{
+    display: block;
+
+    padding: 8px;
+    border-radius: 5px;
+
+    background-color: #4c4c4c;
+
+    color: #eeeeee;
+    text-decoration: underline dashed;
 }
