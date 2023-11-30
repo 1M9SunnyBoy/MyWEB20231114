@@ -1,0 +1,86 @@
+.toolwrap{
+    /* position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px; */
+    /* box-sizing: border-box;
+
+    background-color: azure; */
+
+    padding: 10px;
+}
+
+.toollist{
+    
+}
+
+.toolbox{
+    float: left;
+
+    position: relative;
+
+    width: 200px;
+    height: 300px;
+
+    margin: 10px;
+
+    background: linear-gradient(50deg, rgb(60, 174, 255), rgb(60, 92, 255) 50%, rgb(157, 60, 255));
+
+    font-size: 25px;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.toolbox:before{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 5px;
+
+    content: "";
+
+    background: firebrick;
+}
+
+.toolbox:after{
+    position: absolute;
+    top: 0px;
+
+    z-index: -1;
+    width: 200px;
+    height: 300px;
+
+    content: "";
+
+    filter: blur(15px);
+    background: linear-gradient(50deg, rgb(60, 174, 255), rgb(60, 92, 255) 50%, rgb(157, 60, 255));
+}
+
+.toolbox .toolcontent{
+    display: grid;
+
+    width: 190px;
+    height: 275px;    
+
+    position: relative;
+    top: 20px;
+    left: 5px;
+
+    background: #3c3c3c;
+}
+
+.toolcontent .toolcontent_text{
+    width: 190px;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+
+    text-align: center;
+}

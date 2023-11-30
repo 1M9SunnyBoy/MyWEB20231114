@@ -300,7 +300,7 @@
     background-color: #5e5e5e;
 }
 
-.minewrapsection2content > ul > li > .draggablebox_bar{
+.minewrapsection2content > ul > li > .otherbox_bar{
     width: 200px;
     height: 15px;
 
@@ -309,7 +309,7 @@
     background-color: #3c3c3c;
 }
 
-.minewrapsection2content > ul > li > .draggablebox_bar:before{
+.minewrapsection2content > ul > li > .otherbox_bar:before{
     content: "";
 
     width: 10px;
@@ -324,6 +324,6 @@
     background-color: firebrick;
 }
 
-.minewrapsection2content > ul > li > .draggablebox_content{
+.minewrapsection2content > ul > li > .otherbox_content{
     margin: 10px;
 }
