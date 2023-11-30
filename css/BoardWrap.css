@@ -1,0 +1,95 @@
+.boardwrap{
+    width: 270px;
+    height: auto;
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    
+    padding: 10px;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    border-radius: 6px;
+    background-color: #3c3c3c;
+}
+
+.boardwrap > a{
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 50px;
+}
+
+.boardwrap .switch{
+    display: block;
+
+    width: 110px;
+    height: 110px;
+
+    margin: auto;
+
+    border-radius: 6px;
+
+    background-color: #4d4d4d;
+}
+
+.boardwrap .switch input{
+    display: none;
+}
+
+.smile{
+    position: relative;
+    top: 5px;
+    left: 5px;
+
+    width: 96px;
+    height: 96px;
+
+    border: 2px solid #1a1a1a;
+    border-radius: 50px;
+
+    background: #f00;
+
+    transition: background-color 1s cubic-bezier(1, 0, 0, 1);
+}
+
+.boardwrap .switch .smile .eye{
+    float: left;
+
+    position: relative;
+    top: 23px;
+    left: 17px;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 5px;
+
+    background: #fff;
+}
+
+.boardwrap .switch .smile .eye:first-child{
+    margin-right: 41px;
+}
+
+.boardwrap .switch .smile:before{
+    position: absolute;
+    top: 55px;
+    right: 28px;
+    content: "";
+    width: 40px;  
+    height: 10px;  
+    background: #fff;  
+    border-radius: 50%/100% 100% 0 0;
+    
+    transition: all 1s ease-in-out;
+}
+
+input:checked+.smile:before{
+    transform: rotate3d(1,0,0,180deg);
+}
+
+input:checked+.smile{
+    background: #0e0;
+}

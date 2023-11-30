@@ -8,6 +8,20 @@
 
     background-color: #4d4d4d;
 
+
+    overflow-x: hidden;
+}
+
+.minewrapheader::-webkit-scrollbar{
+    height: 10px;
+}
+
+.minewrapheader::-webkit-scrollbar-track{
+    border-radius: 0px 0px 6px 6px;
+}
+
+.minewrapheader::-webkit-scrollbar-thumb{
+    border-radius: 6px;
 }
 
 .minewrapheader .minewrapheader_headimg{
@@ -35,8 +49,6 @@
     border-left: 2px solid #eeeeee;
 
     line-height: 36px;
-
-    /* background-color: #fff; */
 }
 
 .minewrapheader .minewrapheader_text > span{
@@ -276,7 +288,7 @@
     float: left;
 
     position: relative;
-    top: 70px;
+    top: 0px;
 
     width: 200px;
     height: 300px;
@@ -286,4 +298,32 @@
     border-radius: 5px;
 
     background-color: #5e5e5e;
+}
+
+.minewrapsection2content > ul > li > .draggablebox_bar{
+    width: 200px;
+    height: 15px;
+
+    border-radius: 5px 5px 0px 0px;
+
+    background-color: #3c3c3c;
+}
+
+.minewrapsection2content > ul > li > .draggablebox_bar:before{
+    content: "";
+
+    width: 10px;
+    height: 10px;
+
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+
+    border-radius: 5px;
+
+    background-color: firebrick;
+}
+
+.minewrapsection2content > ul > li > .draggablebox_content{
+    margin: 10px;
 }
